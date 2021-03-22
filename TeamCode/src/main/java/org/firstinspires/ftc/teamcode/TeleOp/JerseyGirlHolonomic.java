@@ -9,6 +9,8 @@ import com.qualcomm.robotcore.hardware.Gamepad;
 import org.firstinspires.ftc.teamcode.HardwareMap.HardwareMap_Example;
 
 // CHAWKS: Name it something useful!
+
+@Disabled
 @TeleOp(name = "I like to move", group = "A")
 //@Disabled
 public class JerseyGirlHolonomic extends HardwareMap_Example {
@@ -26,7 +28,6 @@ public class JerseyGirlHolonomic extends HardwareMap_Example {
         double rotationPower;
         double maxPower;
         double scaleDown;
-
 
         /*
             CHAWKS: On Driver Station, telemetry will be display!

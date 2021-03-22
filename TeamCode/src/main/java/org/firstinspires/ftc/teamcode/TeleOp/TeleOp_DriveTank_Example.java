@@ -43,9 +43,9 @@ import org.firstinspires.ftc.teamcode.HardwareMap.HardwareMap_Example;
  * This OpMode uses the HardwareMap_Example class to define the devices on the robot.
  */
 // CHAWKS: Name it something useful!
-@TeleOp(name="Name This TeleOp Mode here", group="A Group needs a Name")
-// CHAWKS: What does @Disabled mean? what happens if we remove it?
 @Disabled
+@TeleOp(name="Name This TeleOp Mode here", group="A Group needs a Name")
+
 public class TeleOp_DriveTank_Example extends HardwareMap_Example {
 
     /* CHAWKS: Call and declare the robot here */
